@@ -4,7 +4,7 @@ app.controller("myCalendarController", function($scope) {
     $scope.day = moment();
 });
 
-app.directive("myCalendar", function() {
+app.directive("calendar", function() {
     return {
         restrict: "E",
         templateUrl: "templates/calendar.html",
